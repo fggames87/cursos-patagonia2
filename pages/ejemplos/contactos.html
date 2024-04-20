@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="./pages/etiquetas.html">etiquetas</a>
+    <nav>
+        <ul>
+            <li><a href="../index.html">inicio</a></li>
+            <li><a href="#">contactos</a></li>
+            <li><a href="./tienda.html">tienda</a></li>
+        </ul>
+    </nav>
+    </header><!--encabezado va menu logos, barra de navegación-->   
+    <main>
+        <h1>Contactos</h1>
+        <!--vamos a ver formularios y dentro de "form" pueden haber o no 2 etiquetas, "fieldset" que se acompaña de "legend"
+        que es como título, las que si deben estar son "label" e "input"-->
+        <form action="">
+            <fieldset>
+                <legend>datos personales</legend>
+                <label for="nombre">nombre</label>
+                <input type="text" id="nombre" required placeholder="ingresa tu nombre">
+                <label for="pass"></label>
+                <input type="password" id="pass" required placeholder="ingresa tu contraseña">
+                <label for="num"></label>
+                <input type="number" id="num" placeholder="ingrese tu numero">
+                <label for="check">acepta términos y condiciones</label>
+                <input type="checkbox" id="check">
+                <select name="SeleccionaTalle" id="talle">
+                    <option value="valor1">xs</option>
+                    <option value="valor2">s</option>
+                    <option value="valor3">m</option>
+                    <option value="valor4">l</option>
+                    <option value="valor5">xl</option>
+                </select>
+                <label for="h">hombre:</label>
+                <input type="radio" id="h" name="sexo" value="hombre">
+                <label for="m">mujer:</label>
+                <input type="radio" id="m" name="sexo" value="mujer">
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

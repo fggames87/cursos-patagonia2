@@ -1,0 +1,53 @@
+.bodyCont{
+    background-image: url(https://media.istockphoto.com/id/1395272050/es/foto/mensaje-de-conexi%C3%B3n-de-comunicaci%C3%B3n-a-los-contactos-de-correo-electr%C3%B3nico-tel%C3%A9fono-concepto.jpg?s=1024x1024&w=is&k=20&c=_IJwx7t-hfdX_ouCaO-HFNZ0gH3tllWp8lsscuVaQcg=);
+    background-repeat: none;
+    background-size: 100%;
+
+}
+.imagePer{
+    width: 300px;
+    height: 340px;
+    border: 1px solid black;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.696);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.462);
+    text-align: center;
+}
+.cv1{ 
+margin-top: 35px;
+}
+
+.imagePer img{
+    filter: grayscale(1)
+}
+.imagePer img:hover{
+    filter:none
+}
+.imagePer div{
+    width: 100%;
+    height: 60%;
+}
+
+.imagePer img{ 
+    width: 100%;
+    height: 100%;
+
+}
+.imagePerInfo{
+    color: black;
+}
+form input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+form input:focus{
+    background-color: lightblue;
+    border: none;
+}
+
+form input::placeholder{
+    color: red;
+}
+

@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width:2560px){
+main h1{
+    background-color: rgba(255, 255, 255, 0.56);
+}
+
+body main section span{ 
+    color: white;
+    background-color: rgba(0, 0, 0, 0.77);
+}
+
+.cursosIndex{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.66);
+    text-align: center;
+}
+.bannerBimbo{
+    text-align: center;
+}
+.bannerBimbo img{
+    width: 50%;
+    height: 100px;
+}
+.barra {
+    background-color: rgba(45, 124, 185, 0.421);
+    font-size: xx-large;
+}
+.CP{
+    font-size: 140%;
+    font-style: italic;
+    color: rgb(3, 28, 109);
+
+}
+
+.textonegro p{
+    background-color: rgba(236, 242, 245, 0.673);
+}
+.navbar{
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.514);
+text-align: center;
+display: flex;
+justify-content: space-evenly;
+}
+
+.navbar li a{
+    color: black;
+    text-decoration: none;
+
+}
+.navbar li a:visited{
+    color: rgb(115, 10, 115);
+}
+.navbar li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.navbar li{
+    display:inline
+}
+.cursosIndex a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;    
+}
+.textoBackColor{
+    background-color: rgba(203, 203, 203, 0.748);
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGVzdHVkaWFyfGVufDB8fDB8fHww);
+    background-repeat: none;
+    background-size: 100%;
+}
+
+.bodyAleman{
+    background-image: url(https://images.unsplash.com/photo-1595181766648-0d0fbe2142f5?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: none;
+    background-size: 100%;
+
+}
+
+.bodyCont{
+    background-image: url(https://media.istockphoto.com/id/1395272050/es/foto/mensaje-de-conexi%C3%B3n-de-comunicaci%C3%B3n-a-los-contactos-de-correo-electr%C3%B3nico-tel%C3%A9fono-concepto.jpg?s=1024x1024&w=is&k=20&c=_IJwx7t-hfdX_ouCaO-HFNZ0gH3tllWp8lsscuVaQcg=);
+    background-repeat: none;
+    background-size: 100%;
+
+}
+.bodyGui{
+    background-image: url(https://images.unsplash.com/photo-1541689592655-f5f52825a3b8?q=80&w=1850&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: none;
+    background-size: 100%;
+
+}
+
+
+.bodyIns{
+    background-image: url(https://media.istockphoto.com/id/1224371626/es/foto/teclado-port%C3%A1til-azul-de-primer-plano-con-bot%C3%B3n-de-registro-en-l%C3%ADnea.jpg?s=1024x1024&w=is&k=20&c=rlATjET3QZHtWJEm6fvqVmnyT2I08D6-M2OjHpwRJ7M=);
+    background-repeat: none;
+    background-size: 100%;
+
+}
+
+.bodyMake{
+    background-image: url(https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: none;
+    background-size: 100%;
+
+}
+
+.bodyNos{
+    background-image: url(https://plus.unsplash.com/premium_photo-1678453147886-3ea4eb762e8d?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: none;
+    background-size: 100%;
+
+}
+
+.bodyPer{
+    background-image: url(https://plus.unsplash.com/premium_photo-1682148866439-af4c07208d51?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: none;
+    background-size: 100%;
+
+}
+
+.imagePer{
+    width: 300px;
+    height: 340px;
+    border: 1px solid black;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.696);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.462);
+    text-align: center;
+}
+.cv1{ 
+margin-top: 35px;
+}
+
+.imagePer img{
+    filter: grayscale(1)
+}
+.imagePer img:hover{
+    filter:none
+}
+.imagePer div{
+    width: 100%;
+    height: 60%;
+}
+
+.imagePer img{ 
+    width: 100%;
+    height: 100%;
+
+}
+.imagePerInfo{
+    color: black;
+}
+
+.cardCursos{
+    width: 18rem;
+    height: 22rem;
+    background-color: white;
+    margin: 5px;
+    border-radius: 15px;
+}
+.cardCursos img{
+    height: 12rem;
+}
+.card-body p{
+    color: black;
+}
+.card-body h5{
+    color: black;
+}
+.boton{
+    color: black;
+    text-decoration: black;
+    background-color: black;
+}
+.boton :hover{
+    color: blue;
+}
+
+.boton:active{
+    background-color: chartreuse;
+}
+.titCursoOnline p{
+    color: white;
+text-align: center;
+background-color: rgba(0, 0, 0, 0.433);
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgPatagonia{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.textoFoot p{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.375);
+}
+
+.textoh1{
+    text-align: center;
+}
+.cv ul li{
+    text-align: left;
+    margin-top: 5%;
+}
+
+form input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+form input:focus{
+    background-color: lightblue;
+    border: none;
+}
+
+form input::placeholder{
+    color: red;
+}
+
+}
+
+@media (max-width:768px){
+
+    .barra {
+        background-color: rgba(45, 124, 185, 0.421);
+        font-size: x-large;
+    }
+    .CP{
+        font-size: 120%;
+        font-style: italic;
+        color: rgb(3, 28, 109);
+        margin-left: 35%;    
+    }
+    .cardCursos{
+        width: 12rem;
+        height: 15rem;
+        background-color: white;
+        margin: 5px;
+        border-radius: 15px;
+    }
+
+    .cardCursos img{ 
+    height: 6rem;
+    }
+    .card-body p{
+        color: black;
+
+        font-size: small;
+
+    }
+    .card-body h5{
+        color: black;
+
+        font-size: small;
+    }
+    .botonCard{
+        font-size:small;
+    }
+
+    .imagePer {
+        height: 180px;
+        width: 180px;
+    }
+    .imagePerInfo h3{
+        font-size: smaller;
+    }
+    .textoFoot p{
+        font-size: smaller;
+    }
+
+    
+.cv{
+    font-size:9.2px;
+    text-align: center;
+    margin-left: -10px;
+
+}
+.cv1{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: -14px;
+    list-style: none;
+
+}
+.listaPer {
+    list-style: none;
+}
+.textoh1{
+    font-size: smaller;
+}
+} 
+
+@media (max-width:425px){
+
+    .barra {
+        background-color: rgba(45, 124, 185, 0.421);
+        font-size: 20px;
+    }
+    .CP{
+        font-size: 100%;
+        font-style: italic;
+        color: rgb(3, 28, 109);
+        margin-left: 27%;    
+    }
+    .cardCursos{
+        width: 8rem;
+        height: 12rem;
+        background-color: white;
+        margin: 5px;
+        border-radius: 15px;
+    }
+
+    .cardCursos img{ 
+    height: 5rem;
+    }
+    .card-body p{
+        color: black;
+
+        font-size: x-small;
+
+    }
+    .card-body h5{
+        color: black;
+
+        font-size: xx-small;
+    }
+    .botonCard{
+        font-size: x-small;
+    }
+.titCursoOnline p{
+    font-size: small;
+}
+.textoCurso span{
+    font-size: x-small;
+}
+
+.imagePer {
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+}
+.imagePerInfo h3{
+    font-size: x-small;
+}
+.textoFoot p{
+    font-size: smaller;
+}
+
+
+
+.cv{
+    font-size:7px;
+    text-align: center;
+    margin-left: -10px;
+
+}
+.cv1{
+    font-size: 7px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: -14px;
+    list-style: none;
+
+}
+.cv2{
+    font-size: xx-small
+}
+.listaPer {
+    list-style: none;
+}
+.textoh1{
+    font-size: smaller;
+}
+} 

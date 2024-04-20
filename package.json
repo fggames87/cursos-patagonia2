@@ -1,0 +1,14 @@
+{
+  "name": "tercera-entrega-fgames",
+  "version": "1.0.0",
+  "description": "> Para el proyecto se están utilizando las herramientas de:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"node-sass --include-path scss ./sass/style.scss ./css/style-index.css",
+    "watch-css":"nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC"
+}
+

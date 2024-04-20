@@ -1,0 +1,71 @@
+@media (max-width:768px){
+
+    .barra {
+        background-color: rgba(45, 124, 185, 0.421);
+        font-size: x-large;
+    }
+    .CP{
+        font-size: 120%;
+        font-style: italic;
+        color: rgb(3, 28, 109);
+        margin-left: 35%;    
+    }
+    .cardCursos{
+        width: 12rem;
+        height: 15rem;
+        background-color: white;
+        margin: 5px;
+        border-radius: 15px;
+    }
+
+    .cardCursos img{ 
+    height: 6rem;
+    }
+    .card-body p{
+        color: black;
+
+        font-size: small;
+
+    }
+    .card-body h5{
+        color: black;
+
+        font-size: small;
+    }
+    .botonCard{
+        font-size:small;
+    }
+
+    .imagePer {
+        height: 180px;
+        width: 180px;
+    }
+    .imagePerInfo h3{
+        font-size: smaller;
+    }
+    .textoFoot p{
+        font-size: smaller;
+    }
+
+    
+.cv{
+    font-size:9.2px;
+    text-align: center;
+    margin-left: -10px;
+
+}
+.cv1{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: -14px;
+    list-style: none;
+
+}
+.listaPer {
+    list-style: none;
+}
+.textoh1{
+    font-size: smaller;
+}
+} 

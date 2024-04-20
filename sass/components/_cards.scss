@@ -1,0 +1,36 @@
+.cardCursos{
+    width: 18rem;
+    height: 22rem;
+    background-color: white;
+    margin: 5px;
+    border-radius: 15px;
+}
+.cardCursos img{
+    height: 12rem;
+}
+.card-body p{
+    color: black;
+}
+.card-body h5{
+    color: black;
+}
+.boton{
+    color: black;
+    text-decoration: black;
+    background-color: black;
+}
+.boton :hover{
+    color: blue;
+}
+
+.boton:active{
+    background-color: chartreuse;
+}
+.titCursoOnline p{
+    color: white;
+text-align: center;
+background-color: rgba(0, 0, 0, 0.433);
+}
+.flexbox{
+    @include flex
+}
