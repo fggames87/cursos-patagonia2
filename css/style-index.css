@@ -34,6 +34,10 @@
 .navbar li {
   display: inline; }
 
+.navbar li:hover {
+  transform: scale(1.2);
+  transition: transform linear 500ms; }
+
 body {
   background-image: url(https://images.unsplash.com/photo-1488998427799-e3362cec87c3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-repeat: none;
@@ -413,14 +417,27 @@ form input::placeholder {
 
 .textoFoot p {
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.375); }
+  background-color: rgba(255, 255, 255, 0.432); }
 
 .cardCursos {
   width: 18rem;
   height: 22rem;
   background-color: white;
   margin: 5px;
-  border-radius: 15px; }
+  border-radius: 15px;
+  animation-name: background-move;
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-delay: 1s; }
+
+@keyframes background-move {
+  0% {
+    box-shadow: 5px -5px 10px #3e3e3e; }
+  30% {
+    box-shadow: 5px -5px 10px #0f0f7e; }
+  60% {
+    box-shadow: -5px -5px 10px #56089f; } }
 
 .cardCursos img {
   height: 12rem; }

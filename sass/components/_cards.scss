@@ -4,6 +4,22 @@
     background-color: white;
     margin: 5px;
     border-radius: 15px;
+    animation-name: background-move;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+}
+@keyframes background-move{
+    0%{
+        box-shadow: 5px -5px 10px rgb(62, 62, 62);
+    }
+    30%{
+        box-shadow: 5px -5px 10px rgb(15, 15, 126);
+    }
+    60%{
+        box-shadow: -5px -5px 10px rgb(86, 8, 159)
+    }
 }
 .cardCursos img{
     height: 12rem;
