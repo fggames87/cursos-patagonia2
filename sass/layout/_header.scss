@@ -22,9 +22,7 @@ justify-content: space-evenly;
     text-decoration: none;
 
 }
-.navbar li a:visited{
-    color: rgb(115, 10, 115);
-}
+
 .navbar li a:hover{
     color: blue;
     text-decoration: underline;
@@ -32,7 +30,12 @@ justify-content: space-evenly;
 .navbar li{
     display:inline
 }
-.navbar li:hover{
-    transform: scale(1.2);
+/*.navbar li:hover{
+    transform: scale(1.1);
     transition: transform linear 501ms;
+}*/
+
+.navbar li a:visited{
+    color: rgb(115, 10, 115);
 }
+

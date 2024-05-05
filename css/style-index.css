@@ -24,9 +24,6 @@
   color: black;
   text-decoration: none; }
 
-.navbar li a:visited {
-  color: #730a73; }
-
 .navbar li a:hover {
   color: blue;
   text-decoration: underline; }
@@ -34,9 +31,12 @@
 .navbar li {
   display: inline; }
 
-.navbar li:hover {
-  transform: scale(1.2);
-  transition: transform linear 500ms; }
+/*.navbar li:hover{
+    transform: scale(1.1);
+    transition: transform linear 501ms;
+}*/
+.navbar li a:visited {
+  color: #730a73; }
 
 body {
   background-image: url(https://images.unsplash.com/photo-1488998427799-e3362cec87c3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
@@ -44,7 +44,7 @@ body {
   background-size: 100%; }
 
 main h1 {
-  background-color: rgba(255, 255, 255, 0.56); }
+  background-color: white; }
 
 body main section span {
   color: white;
@@ -52,7 +52,7 @@ body main section span {
 
 .cursosIndex {
   color: white;
-  background-color: rgba(2, 2, 78, 0.548);
+  background-color: rgba(0, 0, 0, 0.359);
   text-align: center; }
 
 .bannerBimbo {
@@ -415,6 +415,9 @@ form input::placeholder {
   text-align: left;
   margin-top: 5%; }
 
+.accordion-item {
+  background-color: rgba(255, 255, 255, 0.442); }
+
 .textoFoot p {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.432); }
@@ -437,7 +440,7 @@ form input::placeholder {
   30% {
     box-shadow: 5px -5px 10px #0f0f7e; }
   60% {
-    box-shadow: -5px -5px 10px #56089f; } }
+    box-shadow: -5px -5px 10px #55089f; } }
 
 .cardCursos img {
   height: 12rem; }
